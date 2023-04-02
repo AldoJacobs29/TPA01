@@ -16,6 +16,15 @@ a {
   background-size: cover;
 }
 
+.card-img-top {
+  justify-content: center;
+  max-width: 12%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px lightblue;
+  display: inline-block;
+  text-align: center;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -159,4 +168,8 @@ nav ul li a:hover:after {
 
 .about {
   display: flex;
+}
+
+.skills ul li {
+  margin-bottom: 15px;
 }
